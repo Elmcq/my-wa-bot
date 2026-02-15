@@ -19,19 +19,9 @@ import http from 'http';
 
 const server = http.createServer((req, res) => res.end('Bot Online'));
 
-const PORT = 8080;
-server.listen(PORT, () => {
+const PORT = 5000;
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);
-});
-
-server.on('error', (e) => {
-    if (e.code === 'EADDRINUSE') {
-        console.log(`Port ${PORT} is busy, trying env PORT or 3000...`);
-        const altPort = process.env.PORT || 3000;
-        server.listen(altPort, () => {
-            console.log(`Server running on fallback port ${altPort}`);
-        });
-    }
 });
 
 
