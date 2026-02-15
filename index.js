@@ -173,6 +173,7 @@ async function startBot() {
 
         // 0. Daily Reset Logic (00:00)
         const today = new Date().toLocaleDateString('id-ID');
+        if (!db.__settings__) db.__settings__ = {};
         if (db.__settings__.lastResetDate !== today) {
             for (const key in db) {
                 if (typeof db[key] === 'object' && db[key].slotLimit !== undefined) {
