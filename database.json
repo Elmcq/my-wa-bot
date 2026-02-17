@@ -1,1 +1,547 @@
-[]
+{
+  "27840078733448": {
+    "id": "27840078733448@lid",
+    "role": "Unset",
+    "xp": 11,
+    "level": 2,
+    "balance": 65703,
+    "lastClaim": 1771210811707,
+    "lastRob": 1771211221199,
+    "shieldUntil": 0,
+    "bank_balance": 7343,
+    "warns": 0,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 1769948808973,
+    "collection": [
+      {
+        "name": "Maki Zenin",
+        "rarity": "[C]",
+        "power": 1850,
+        "date": 1769948603318
+      },
+      {
+        "name": "Hinata Hyuga",
+        "rarity": "[C]",
+        "power": 1750,
+        "date": 1769948684394
+      }
+    ],
+    "slotLimit": 0,
+    "poolSkill": 15.599999999999993
+  },
+  "35455038935243": {
+    "id": "35455038935243@lid",
+    "role": "VIP Member",
+    "xp": 1,
+    "level": 106,
+    "balance": 0,
+    "lastClaim": 1771154899723,
+    "lastRob": 1771210861945,
+    "shieldUntil": 1769992808866,
+    "bank_balance": 468769,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": true,
+    "vipExpiry": 1772498529605,
+    "lastMancing": 1771210907890,
+    "collection": [
+      {
+        "name": "Roronoa Zoro (King of Hell)",
+        "rarity": "[SR]",
+        "power": 7800,
+        "date": 1769906446836
+      },
+      {
+        "name": "Uchiha Sasuke (Rinnegan)",
+        "rarity": "[SR]",
+        "power": 7700,
+        "date": 1769906428078
+      },
+      {
+        "name": "Yuta Okkotsu",
+        "rarity": "[SR]",
+        "power": 7500,
+        "date": 1769908997602
+      },
+      {
+        "name": "Hinata Hyuga",
+        "rarity": "[C]",
+        "power": 1750,
+        "date": 1771210478307
+      },
+      {
+        "name": "Panda",
+        "rarity": "[C]",
+        "power": 1700,
+        "date": 1769948675374
+      },
+      {
+        "name": "Shino Aburame",
+        "rarity": "[C]",
+        "power": 1550,
+        "date": 1771210458838
+      },
+      {
+        "name": "Kiba Inuzuka",
+        "rarity": "[C]",
+        "power": 1400,
+        "date": 1771210464808
+      },
+      {
+        "name": "Jean Kirstein",
+        "rarity": "[C]",
+        "power": 1300,
+        "date": 1771210470377
+      },
+      {
+        "name": "Connie Springer",
+        "rarity": "[C]",
+        "power": 800,
+        "date": 1769907383958
+      }
+    ],
+    "slotLimit": 0,
+    "poolSkill": 1.6000000000000005,
+    "rod": {
+      "name": "Bamboo Rod",
+      "type": "bamboo",
+      "durability": 7,
+      "maxDurability": 20
+    }
+  },
+  "148309566046325": {
+    "id": "148309566046325@lid",
+    "role": "Unset",
+    "xp": 70,
+    "level": 4,
+    "balance": 20,
+    "lastClaim": 1771210803038,
+    "lastRob": 1771211236983,
+    "shieldUntil": 0,
+    "bank_balance": 1280,
+    "warns": 2,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 1771214827359,
+    "collection": [
+      {
+        "name": "Reiner Braun",
+        "rarity": "[C]",
+        "power": 1900,
+        "date": 1769907424559
+      },
+      {
+        "name": "Hinata Hyuga",
+        "rarity": "[C]",
+        "power": 1750,
+        "date": 1769908356108
+      }
+    ],
+    "slotLimit": 0,
+    "poolSkill": 27.6,
+    "rod": {
+      "name": "Bamboo Rod",
+      "type": "bamboo",
+      "durability": 17,
+      "maxDurability": 20
+    }
+  },
+  "242438505558030": {
+    "id": "242438505558030@lid",
+    "role": "Unset",
+    "xp": 76,
+    "level": 2,
+    "balance": 0,
+    "lastClaim": 1770215709502,
+    "lastRob": 1771214259212,
+    "shieldUntil": 1770011207224,
+    "bank_balance": 20200,
+    "warns": 1,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 1769948875658,
+    "collection": [
+      {
+        "name": "Erwin Smith",
+        "rarity": "[R]",
+        "power": 2500,
+        "date": 1769948590857
+      },
+      {
+        "name": "Maki Zenin",
+        "rarity": "[C]",
+        "power": 1850,
+        "date": 1769948312572
+      },
+      {
+        "name": "Levi Ackerman",
+        "rarity": "[SR]",
+        "power": 7400,
+        "date": 1769948785043
+      },
+      {
+        "name": "Historia Reiss",
+        "rarity": "[C]",
+        "power": 400,
+        "date": 1769948830092
+      }
+    ],
+    "slotLimit": 0,
+    "poolSkill": 2.900000000000001
+  },
+  "94459786195043": {
+    "id": "94459786195043@lid",
+    "role": "Unset",
+    "xp": 64,
+    "level": 1,
+    "balance": 86,
+    "bank_balance": 0,
+    "lastClaim": 1769839415149,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": [],
+    "poolSkill": 3.200000000000001
+  },
+  "203238137704471": {
+    "id": "203238137704471@lid",
+    "role": "Unset",
+    "xp": 32,
+    "level": 1,
+    "balance": 3306,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": [],
+    "poolSkill": 4.599999999999999
+  },
+  "215710840127730": {
+    "id": "215710840127730@lid",
+    "role": "Unset",
+    "xp": 1,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "110106402369645": {
+    "id": "110106402369645@lid",
+    "role": "Unset",
+    "xp": 41,
+    "level": 1,
+    "balance": 31,
+    "bank_balance": 0,
+    "lastClaim": 1770107145217,
+    "lastRob": 1769839531844,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 1769913288849,
+    "collection": [],
+    "poolSkill": 1.3000000000000003
+  },
+  "267203102388447": {
+    "id": "267203102388447@lid",
+    "role": "Unset",
+    "xp": 18,
+    "level": 5,
+    "balance": 22803,
+    "bank_balance": 0,
+    "lastClaim": 1771210713066,
+    "lastRob": 1771210887424,
+    "shieldUntil": 1770011253880,
+    "warns": 1,
+    "afk": -1,
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 1771210939751,
+    "collection": [
+      {
+        "name": "Sasha Braus",
+        "rarity": "[C]",
+        "power": 850,
+        "date": 1770128107963
+      },
+      {
+        "name": "Connie Springer",
+        "rarity": "[C]",
+        "power": 800,
+        "date": 1770128143044
+      },
+      {
+        "name": "Iruka Sensei",
+        "rarity": "[C]",
+        "power": 600,
+        "date": 1770128413124
+      }
+    ],
+    "slotLimit": 0,
+    "iubStatus": "Aktif",
+    "poolSkill": 21.40000000000001,
+    "licenses": [
+      "IUP"
+    ],
+    "rod": {
+      "name": "Bamboo Rod",
+      "type": "bamboo",
+      "durability": 19,
+      "maxDurability": 20
+    }
+  },
+  "__settings__": {
+    "silentMode": false,
+    "arenaGroupId": "120363405915571259@g.us",
+    "pusatGroupId": "120363406648744869@g.us",
+    "lastResetDate": "17/2/2026"
+  },
+  "__stats__": {
+    "messageHistory": [
+      1771289074356,
+      1771289199770,
+      1771289255083
+    ],
+    "commandHistory": [
+      1771289199770
+    ]
+  },
+  "145895777636500": {
+    "id": "145895777636500@lid",
+    "role": "Unset",
+    "xp": 2,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "195034582376669": {
+    "id": "195034582376669@lid",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "6281335758501": {
+    "id": "6281335758501@s.whatsapp.net",
+    "role": "Unset",
+    "xp": 4,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "240617187750095": {
+    "id": "240617187750095@lid",
+    "role": "Unset",
+    "xp": 3,
+    "level": 1,
+    "balance": 500,
+    "bank_balance": 0,
+    "lastClaim": 1770112891385,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "6287730616481": {
+    "id": "6287730616481@s.whatsapp.net",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "120363406648744869": {
+    "id": "120363406648744869@g.us",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "__pending_confirmations__": {},
+  "21466749890717": {
+    "id": "21466749890717@lid",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "__marketplace__": [],
+  "__missions__": [
+    {
+      "id": "M-J3RGA",
+      "title": "kasih aku 1 dirt",
+      "reward": 1,
+      "creatorId": "148309566046325@lid",
+      "creatorNumber": "148309566046325",
+      "status": "available",
+      "takerId": null,
+      "takerNumber": null
+    }
+  ],
+  "__pending_deposits__": {},
+  "__private_banks__": {},
+  "__server_treasury__": 0,
+  "128059399262208": {
+    "id": "128059399262208@lid",
+    "role": "Unset",
+    "xp": 1,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "103006301356187": {
+    "id": "103006301356187@lid",
+    "role": "Unset",
+    "xp": 1,
+    "level": 1,
+    "balance": 150,
+    "bank_balance": 0,
+    "lastClaim": 1770350578312,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "108147578507376": {
+    "id": "108147578507376@lid",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  },
+  "223033490952410": {
+    "id": "223033490952410@lid",
+    "role": "Unset",
+    "xp": 0,
+    "level": 1,
+    "balance": 0,
+    "bank_balance": 0,
+    "lastClaim": 0,
+    "lastRob": 0,
+    "shieldUntil": 0,
+    "warns": 0,
+    "afk": -1,
+    "afkReason": "",
+    "vip": false,
+    "vipExpiry": 0,
+    "lastMancing": 0,
+    "collection": []
+  }
+}

@@ -24,6 +24,16 @@ server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);
 });
 
+server.on('error', (e) => {
+    if (e.code === 'EADDRINUSE') {
+        console.log(`Port ${PORT} is busy, trying env PORT or 3000...`);
+        const altPort = process.env.PORT || 3000;
+        server.listen(altPort, () => {
+            console.log(`Server running on fallback port ${altPort}`);
+        });
+    }
+});
+
 
 
 
@@ -173,7 +183,6 @@ async function startBot() {
 
         // 0. Daily Reset Logic (00:00)
         const today = new Date().toLocaleDateString('id-ID');
-        if (!db.__settings__) db.__settings__ = {};
         if (db.__settings__.lastResetDate !== today) {
             for (const key in db) {
                 if (typeof db[key] === 'object' && db[key].slotLimit !== undefined) {
@@ -388,6 +397,10 @@ async function startBot() {
                     break;
                 }
                 if (c.name === 'backup' && ['!backup', '!cadangkan'].includes(cmd)) {
+                    command = c;
+                    break;
+                }
+                if (c.name === 'sticker' && ['!stiker', '!s'].includes(cmd)) {
                     command = c;
                     break;
                 }
