@@ -174,7 +174,11 @@ async function startBot() {
         const senderNumber = sender.split('@')[0];
         const isGroup = from.endsWith('@g.us');
 
-        const body = msg.message.conversation || msg.message.extendedTextMessage?.text || '';
+        const body = msg.message.conversation ||
+            msg.message.extendedTextMessage?.text ||
+            msg.message.imageMessage?.caption ||
+            msg.message.videoMessage?.caption ||
+            '';
         const text = body.toLowerCase().trim();
         const args = body.trim().split(/ +/).slice(1);
         const cmd = text.split(' ')[0];
@@ -401,6 +405,10 @@ async function startBot() {
                     break;
                 }
                 if (c.name === 'sticker' && ['!stiker', '!s'].includes(cmd)) {
+                    command = c;
+                    break;
+                }
+                if (c.name === 'scan' && ['!scan', '!vt'].includes(cmd)) {
                     command = c;
                     break;
                 }
