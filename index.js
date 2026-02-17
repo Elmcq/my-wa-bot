@@ -9,6 +9,7 @@ import warnHandler, { addToxicWarning } from './commands/warnHandler.js';
 import { isAdmin, isImmune } from './lib/functions.js';
 import { autoReplies } from './utility/autoreply.js';
 import { startRamadanSchedulers } from './utility/ramadan.js';
+import scanCommand from './commands/security/scan.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -52,10 +53,12 @@ function saveDB(db) {
 }
 
 const commands = new Map();
+// Manual Register for Security
+commands.set(scanCommand.name, scanCommand);
 const botMessageKeys = new Map(); // Tracks bot message keys per chat: Map<chatJid, Array<{key}>>
 
 async function loadCommands() {
-    const categories = ['admin', 'game', 'utility'];
+    const categories = ['admin', 'game', 'utility', 'security'];
     for (const category of categories) {
         const commandPath = path.join(__dirname, 'commands', category);
         if (!fs.existsSync(commandPath)) continue;
